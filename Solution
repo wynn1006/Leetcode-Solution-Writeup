@@ -1,0 +1,7 @@
+Brute force
+Simply using DFS to walk through all nodes in the tree from left to right.
+During the traversal, add each node to the result list to it's corresponding level.
+If the current level is not existed in the result list, it means this level wasn't visited yet, so add a new list to the end of the result list.
+Time Complexity: O(aomunt of nodes)
+Space Complexity: O(amount of nodes)
+
